@@ -1,0 +1,60 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--font-stack: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans';
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		--font-stack: 'Inter var', var(--font-stack));
+	}
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: var(--font-stack);
+	color: inherit;
+}
+
+html,
+body {
+	@apply bg-gray-900 text-xl text-white font-medium;
+}
+
+h1,
+p {
+	letter-spacing: -0.02em;
+}
+
+li a {
+	@apply grid grid-flow-col px-4 py-2 rounded-md bg-transparent hover:bg-gray-700 transition;
+}
+
+li a p:first-child::before {
+	content: 'jesse.es';
+	@apply text-gray-500;
+}
+
+/* li a p:first-child::after {
+	content: '↗';
+	@apply absolute opacity-0 transform -translate-x-full translate-y-1/4 transition-all;
+}
+
+li a:hover p:first-child::after {
+	@apply opacity-100 translate-x-0 translate-y-0;
+} */
+
+li a p:last-child {
+	@apply justify-self-end;
+}
