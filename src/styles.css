@@ -29,7 +29,7 @@
 
 html,
 body {
-	@apply bg-gray-900 text-xl text-white font-medium;
+	@apply bg-gray-900 text-lg text-white font-medium;
 }
 
 h1,
@@ -38,7 +38,7 @@ p {
 }
 
 li a {
-	@apply grid grid-flow-col px-4 -mx-4 py-2 rounded-md bg-transparent md:hover:bg-gray-700 transition;
+	@apply grid grid-flow-col px-4 -mx-4 py-2 rounded-md bg-transparent sm:hover:bg-gray-700 transition;
 }
 
 li a p:first-child::before {
