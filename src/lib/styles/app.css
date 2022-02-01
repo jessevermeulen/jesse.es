@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './typography';
+
+*,
+*:before,
+*:after {
+	@apply text-zinc-900;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: var(--font-stack-base);
+}
+
+html,
+body {
+	@apply overflow-x-hidden;
+	scroll-behavior: smooth;
+}
