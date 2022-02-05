@@ -1,7 +1,7 @@
 <script>
 	import { navigating, page } from '$app/stores';
 
-	export let title = 'Jesse Vermeulen - Business Card';
+	export let title = 'Jesse Vermeulen - Digital Product Designer';
 	export let image = 'meta.png';
 	export let description =
 		'Jesse Vermeulen is an Amsterdam based Digital Product Designer with over 8 years of experience in both design and development.';
