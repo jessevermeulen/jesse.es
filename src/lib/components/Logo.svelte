@@ -7,7 +7,7 @@
 		<g filter="url(#filter0_ii_563_130)">
 			<rect x="-0.0306988" width="64" height="64" rx="14.6019" fill="url(#paint0_linear_563_130)" />
 		</g>
-		<g style="mix-blend-mode:overlay">
+		<g style="mix-blend-mode:soft-light">
 			<rect
 				x="0.969301"
 				y="1"
@@ -27,9 +27,9 @@
 		<filter
 			id="filter0_ii_563_130"
 			x="-0.0306988"
-			y="-4.03884"
+			y="-4"
 			width="64"
-			height="72.0777"
+			height="72"
 			filterUnits="userSpaceOnUse"
 			color-interpolation-filters="sRGB"
 		>
@@ -41,8 +41,8 @@
 				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
 				result="hardAlpha"
 			/>
-			<feOffset dy="4.03884" />
-			<feGaussianBlur stdDeviation="2.01942" />
+			<feOffset dy="4" />
+			<feGaussianBlur stdDeviation="2" />
 			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
 			<feColorMatrix type="matrix" values="0 0 0 0 0.218353 0 0 0 0 0.300235 0 0 0 0 1 0 0 0 1 0" />
 			<feBlend mode="normal" in2="shape" result="effect1_innerShadow_563_130" />
@@ -52,8 +52,8 @@
 				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
 				result="hardAlpha"
 			/>
-			<feOffset dy="-4.03884" />
-			<feGaussianBlur stdDeviation="2.01942" />
+			<feOffset dy="-4" />
+			<feGaussianBlur stdDeviation="2" />
 			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
 			<feColorMatrix
 				type="matrix"
