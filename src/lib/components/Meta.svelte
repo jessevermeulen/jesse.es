@@ -15,16 +15,16 @@
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://jessevermeulen.com{$page.url.pathname}" />
+		<meta property="og:url" content="https://jesse.es{$page.url.pathname}" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content="https://jessevermeulen.com/{image}" />
+		<meta property="og:image" content="https://jesse.es/{image}" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://jessevermeulen.com{$page.url.pathname}" />
+		<meta property="twitter:url" content="https://jesse.es{$page.url.pathname}" />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
-		<meta property="twitter:image" content="https://jessevermeulen.com/{image}" />
+		<meta property="twitter:image" content="https://jesse.es/{image}" />
 	{/key}
 </svelte:head>
