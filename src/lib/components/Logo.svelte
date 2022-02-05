@@ -7,7 +7,7 @@
 		<g filter="url(#filter0_ii_563_130)">
 			<rect x="-0.0306988" width="64" height="64" rx="14.6019" fill="url(#paint0_linear_563_130)" />
 		</g>
-		<g style="mix-blend-mode:soft-light">
+		<g style="mix-blend-mode:overlay">
 			<rect
 				x="0.969301"
 				y="1"
