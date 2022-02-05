@@ -3,7 +3,7 @@
 	import Redirects from '$lib/content/redirects.svelte.md';
 </script>
 
-<div class="grid gap-8 sm:max-w-md m-auto py-16 sm:py-32 px-4 sm:px-0">
+<div class="grid gap-8 sm:max-w-md m-auto my-16 sm:my-32 px-4 sm:px-0">
 	<header class="grid gap-6">
 		<Logo />
 

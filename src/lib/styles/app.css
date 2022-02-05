@@ -16,6 +16,6 @@
 
 html,
 body {
-	@apply overflow-x-hidden;
+	@apply overflow-x-hidden bg-zinc-50;
 	scroll-behavior: smooth;
 }
