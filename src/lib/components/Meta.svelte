@@ -1,10 +1,10 @@
 <script>
 	import { navigating, page } from '$app/stores';
 
-	export let title = 'Jesse Vermeulen - Digital Product Designer';
+	export let title = 'Jesse Vermeulen - Digital product designer';
 	export let image = 'meta.png';
 	export let description =
-		'Jesse Vermeulen is an Amsterdam based Digital Product Designer with over 8 years of experience in both design and development.';
+		'Jesse Vermeulen is an Amsterdam based digital product designer with over 8 years of experience in both design and development.';
 </script>
 
 <svelte:head>
